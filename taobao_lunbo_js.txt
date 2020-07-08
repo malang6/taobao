@@ -1,0 +1,59 @@
+function byId(id) {
+	return typeof(id) === "string" ? document.getElementById(id) : id;
+}
+var index = 0;
+var timer = null;
+var pics = byId("conter_center1_lunbo_pics");
+var picArr = pics.getElementsByTagName("img");
+var dots = byId("lunbo_dots");
+var spanArr = dots.getElementsByTagName("span");
+var conter_lunbo = byId("conter_center1_lunbo");
+//底部按钮控制图片轮播
+for (var i = 0; i < picArr.length; i++) {
+	spanArr[i].data = i;
+	spanArr[i].onmouseover = function() {
+		index = this.data;
+		imgChange();
+	}
+}
+//获取上下页按钮
+var prev = byId("prev"),
+	next = byId("next");
+next.onclick = function() {
+	index++;
+	index = index >= picArr.length ? 0 : index;
+	imgChange();
+};
+prev.onclick = function() {
+	index--;
+	index = index < 0 ? (picArr.length - 1) : index;
+	imgChange();
+};
+slideImg();
+//轮播图函数
+function slideImg() {
+	conter_lunbo.onmouseover = function() {
+		if (timer) {
+			clearInterval(timer);
+		}
+	};
+	conter_lunbo.onmouseout = function() {
+		timer = setInterval(function() {
+			imgChange();
+			index++;
+			index = index >= picArr.length ? 0 : index;
+		}, 2000)
+	};
+	conter_lunbo.onmouseout();
+}
+//封装图片切换函数
+//底部点钮的定时切换
+function imgChange() {
+	for (var i = 0; i < picArr.length; i++) {
+		picArr[i].style.display = 'none';
+		spanArr[i].className = "";
+	}
+	picArr[index].style.display = 'block';
+	spanArr[index].className = "lunbo_current";
+
+}
