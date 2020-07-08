@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>爱淘宝PC新版</title>
+		<link rel="icon" href="img/ic.PNG" />
+		<link rel="stylesheet" type="text/css" href="css/taobao.css" />
+		<link rel="stylesheet" type="text/css" href="font/css/all.css">
+	</head>
+	<body>
+		<div id="header">
+			<div class="header">
+				<div>
+					<a href="#">亲，请登录</a>
+					<a href="#">免费注册</a>
+					<a href="#">手机逛淘宝</a>
+				</div>
+				<div>
+					<a href="#">淘宝网首页</a>
+					<a href="#">我的淘宝</a>
+					<i class="fas fa-angle-down"></i>
+					<a href="#">手机逛淘宝</a>
+					<a href="#">
+						<i class="fas fa-baby-carriage"></i>
+						&nbsp;购物车<b>0</b>&nbsp;</a>
+						<i class="fas fa-angle-down"></i>
+					<a href="#"><i class="fas fa-star"></i>&nbsp;&nbsp;收藏夹</a>
+					<i class="fas fa-angle-down"></i>
+					<a href="#">商品分类</a>
+					<span id="line">|</span>
+					<a href="#">卖家中心</a>
+					<i class="fas fa-angle-down"></i>
+					<a href="#">联系客服</a>
+					<a href="#">
+						<i class="fas fa-stream"></i>
+						网站导航&nbsp;</a>
+					<i class="fas fa-angle-down"></i>
+				</div>
+			</div>
+		</div>
+		<div id="header_img">
+			<a href="#">
+				<img src="img/TB1Km6rb639YK4jSZPcXXXrUFXa-1280-90.jpg" />
+			</a>
+		</div>
+		<div id="search">
+			<div>
+				<img src="img/1572809375526-200-76.png">
+			</div>
+			<div id="search_inp">
+				<input class="search_inp" type="text" autofocus="autofocus" />
+				<a href="#">
+					<img class="search_img" src="img/search.png" />
+				</a>
+				<div id="search_nav">
+					<a href="#">超级红包</a>
+					<a href="#">连衣裙</a>
+					<a href="#">外套女</a>
+					<a href="#">牛仔裤</a>
+					<a href="#">老爹鞋</a>
+					<a href="#">扫地机器人</a>
+					<a href="#">眼影盘</a>
+					<a href="#">手机壳</a>
+					<a href="#">男衬衫</a>
+					<a href="#">乐高玩具</a>
+					<a href="#">养生壶</a>
+				</div>
+			</div>
+			<div>
+				<img src="img/TB1K9Lsloz1gK0jSZLeXXb9kVXa-227-79.jpg">
+			</div>
+		</div>
+		<div id="red_across">
+			<div class="red_across">
+				<a href="#">每日爆品 &nbsp;1元起</a>
+				<a href="#">618天猫会场</a>
+				<a href="#">聚划算</a>
+				<a href="#">淘抢购</a>
+				<a href="#">天猫超市</a>
+			</div>
+		</div>
+		<div id="conter">
+			<div class="conter_left">
+				<div>
+					<a href="#">
+						<img src="img/img4.PNG" />
+					</a>
+					<a href="#">连衣裙冬</a>
+					<a href="#">短裤</a>
+					<a href="#">拖鞋</a>
+					<a href="#">半身裙</a>
+					<span>
+						<a href="#">女人</a>
+						<a href="#">睡衣夏</a>
+						<a href="#">大码装</a>
+						<a href="#">半身裙夏</a>
+					</span>
+				</div>
+				<div>
+					<a href="#">
+						<img src="img/img5.PNG" />
+					</a>
+					<a href="#">潮男鞋</a>
+					<a href="#">男鞋</a>
+					<a href="#">拖鞋</a>
+					<a href="#">电动车</a>
+					<span>
+						<a href="#">男人</a>
+						<a href="#">内裤</a>
+						<a href="#">帆布鞋</a>
+						<a href="#">头盔</a>
+						<a href="#">情侣装</a>
+					</span>
+				</div>
+				<div>
+					<a href="#">
+						<img src="img/img6.PNG" />
+					</a>
+					<a href="#">空调</a>
+					<a href="#">冰箱</a>
+					<a href="#">洗衣机</a>
+					<a href="#">空调挂机</a>
+					<span>
+						<a href="#">数码</a>
+						<a href="#">小冰箱</a>
+						<a href="#">笔记本</a>
+						<a href="#">音箱</a>
+						<a href="#">烤箱</a>
+					</span>
+				</div>
+				<div>
+					<a href="#">
+						<img src="img/img7.PNG" />
+					</a>
+					<a href="#">饼干</a>
+					<a href="#">笔袋</a>
+					<a href="#">婴儿床</a>
+					<a href="#">奥特曼</a>
+					<span>
+						<a href="#">母婴</a>
+						<a href="#">草帽子</a>
+						<a href="#">护膝</a>
+						<a href="#">奶粉</a>
+						<a href="#">餐椅</a>
+					</span>
+				</div>
+				<div>
+					<a href="#">
+						<img src="img/img8.PNG" />
+					</a>
+					<a href="#">拖鞋女</a>
+					<a href="#">床垫子</a>
+					<a href="#">四件套</a>
+					<span>
+						<a href="#">家居</a>
+						<a href="#">空调被</a>
+						<a href="#">毛巾</a>
+						<a href="#">收纳箱</a>
+						<a href="#">菜板</a>
+					</span>
+				</div>
+				<div>
+					<a href="#">
+						<img src="img/img9.PNG" />
+					</a>
+					<a href="#">饼干</a>
+					<a href="#">茶叶</a>
+					<a href="#">零食礼包</a>
+					<a href="#">早餐</a>
+					<span>
+						<a href="#">美食</a>
+						<a href="#">燕麦片</a>
+						<a href="#">巧克力</a>
+						<a href="#">糖果</a>
+						<a href="#">蜂蜜</a>
+					</span>
+				</div>
+				<div>
+					<a href="#">
+						<img src="img/img10.PNG" />
+					</a>
+					<a href="#">防晒霜</a>
+					<a href="#">洗面奶</a>
+					<a href="#">电动牙刷</a>
+					<span>
+						<a href="#">美妆</a>
+						<a href="#">套装</a>
+						<a href="#">香水</a>
+						<a href="#">防晒</a>
+						<a href="#">剃须刀</a>
+					</span>
+				</div>
+				<div>
+					<a href="#">
+						<img src="img/img11.PNG" />
+					</a>
+					<a href="#">双肩背包</a>
+					<a href="#">小ck</a>
+					<a href="#">zara</a>
+					<a href="#">腰包</a>
+					<span>
+						<a href="#">箱包</a>
+						<a href="#">腰包</a>
+						<a href="#">背包</a>
+						<a href="#">斜挎男包</a>
+						<a href="#">斐乐</a>
+					</span>
+				</div>
+			</div>
+			<div class="conter_center1">
+				<div class="conter_center1_lunbo" id="conter_center1_lunbo">
+					<div class="conter_center1_lunbo_pics" id="conter_center1_lunbo_pics">
+						<a href="#">
+							<img src="img/pic1.jpg">
+						</a>
+						<a href="#">
+							<img src="img/pic2.jpg">
+						</a>
+						<a href="#">
+							<img src="img/pic3.jpg">
+						</a>
+						<a href="#">
+							<img src="img/pic4.jpg">
+						</a>
+						<a href="#">
+							<img src="img/pic5.jpg">
+						</a>
+						<a href="#">
+							<img src="img/pic6.jpg">
+						</a>
+						<div class="lunbo_dots" id="lunbo_dots">
+							<span class="lunbo_current"></span>
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+						<div class="lunbo_button">
+							<a href="javascript:void(0)" class="button prev" id="prev">
+								<i class="fas fa-chevron-left"></i>
+							</a>
+							<a href="javascript:void(0)" class="button next" id="next">
+								<i class="fas fa-chevron-left"></i>
+							</a>
+						</div>
+					</div>
+					<a href="#" class="conter_center1_lunbo_blow1_1">超值活动专区</a>
+					<a href="#" class="conter_center1_lunbo_blow1_2">每天10点更新</a>
+				</div>
+				<div class="conter_center1_bottom">
+					<div>
+						<a href="#">
+							<img class="conter_center1_bottom_1-1" src="img/img13.JPG" />
+						</a>
+					</div>
+					<div>
+						<a href="#">
+							<img class="conter_center1_bottom_1-2" src="img/img14.JPG" />
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="conter_center2">
+				<div>
+					<a href="#">
+						<img class="conter_center2_top" src="img/img15.JPG" />
+					</a>
+				</div>
+				<div>
+					<a href="#">
+						<img class="conter_center2_bottom" src="img/img16.JPG" />
+					</a>
+				</div>
+			</div>
+			<div class="conter_right">
+				<div>
+					<img class="conter_right_top" src="img/img17.JPG" />
+				</div>
+				<div>
+					<img class="conter_right_bottom" src="img/img18.JPG" />
+				</div>
+			</div>
+			<div id="back_top">
+				<a href="#header">回到顶部</a>
+			</div>
+		</div>
+	</body>
+	<script src="js/taobao_lunbo.js"></script>
+</html>
